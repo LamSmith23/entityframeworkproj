@@ -1,6 +1,7 @@
 ﻿using NinjaDomain.Classes.Enums;
 using System.Collections.Generic;
 
+
 namespace NinjaDomain.Classes
 {
     public class Ninja
