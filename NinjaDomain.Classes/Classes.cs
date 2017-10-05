@@ -1,6 +1,7 @@
 ﻿using NinjaDomain.Classes.Enums;
 using System.Collections.Generic;
 
+ 
 namespace NinjaDomain.Classes
 {
     public class Ninja
@@ -23,6 +24,7 @@ namespace NinjaDomain.Classes
         public int Id { get; set; }
         public string Name { get; set; }
         public EquipmentType Type { get; set; }
+        //[Required]
         public Ninja Ninja { get; set; }
     }
 }
